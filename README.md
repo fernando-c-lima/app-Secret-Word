@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# SECRET WORD
+Este projeto "SECRET WORD" é um jogo de adivinhação de palavras secretas desenvolvido utilizando React. O jogo permite aos usuários tentar adivinhar uma palavra oculta, revelando letras corretas e tentativas restantes.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
+"SECRET WORD" é um jogo divertido e desafiador onde o jogador deve adivinhar uma palavra secreta. A cada rodada, o jogador pode tentar adivinhar letras da palavra. Se a letra estiver correta, ela será revelada na posição correspondente. O objetivo é descobrir a palavra completa antes de esgotar o número de tentativas disponíveis. O jogo utiliza conceitos avançados de React, como componentes reutilizáveis, hooks para gerenciamento de estados e eventos para interação do usuário.
 
-## Available Scripts
+## Pré-requisitos
 
-In the project directory, you can run:
+Antes de começar, certifique-se de ter o Node.js e npm instalados em sua máquina.
 
-### `npm start`
+- Node.js: [https://nodejs.org/](https://nodejs.org/)
+- npm: normalmente já vem com o Node.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ## Como começar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clonar o repositório**
 
-### `npm test`
+   ```bash
+   git clone https://github.com/seu-usuario/projeto-react-formularios-basicos.git
+   cd projeto-react-formularios-basicos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalar dependências
 
-### `npm run build`
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Rodar o aplicativo localmente
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Isso iniciará o servidor de desenvolvimento. Abra http://localhost:3000 no seu navegador para ver o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Funcionalidades
+- Componentes: Utilização de componentes React para estruturar a interface do usuário de forma modular e reutilizável.
+- Hooks: Implementação de hooks personalizados para gerenciar a lógica do jogo e o estado dos componentes funcionais.
+- States: Utilização de estados para armazenar informações dinâmicas como a palavra secreta, letras reveladas e número de tentativas restantes.
+- Eventos: Manipulação de eventos para capturar ações do usuário, como cliques em letras para revelar e verificar se estão corretas.
+- Condicionais: Uso de condicionais para controlar o fluxo do jogo com base em estados e resultados das ações do usuário.
