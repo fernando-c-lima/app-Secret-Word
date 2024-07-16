@@ -16,17 +16,17 @@ Antes de começar, certifique-se de ter o Node.js e npm instalados em sua máqui
 1. **Clonar o repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/projeto-react-formularios-basicos.git
+   git clone `https://github.com/fernando-c-lima/app-Secret-Word.git`
    cd projeto-react-formularios-basicos
 
 ## Instalar dependências
 
-npm install
+`npm install`
 
 ## Rodar o aplicativo localmente
-npm start
+`npm start`
 
-Isso iniciará o servidor de desenvolvimento. Abra http://localhost:3000 no seu navegador para ver o projeto
+Isso iniciará o servidor de desenvolvimento. `Abra http://localhost:3000 no seu navegador para ver o projeto`
 
 ## Funcionalidades
 - Componentes: Utilização de componentes React para estruturar a interface do usuário de forma modular e reutilizável.
